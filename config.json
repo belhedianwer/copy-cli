@@ -1,0 +1,12 @@
+{
+  "src": "lib,src",           // Source directories, separated by commas
+  "ext": "js,ts",             // File extensions to include, separated by commas
+  "targetExt": "txt",         // Extension for the output files
+  "dest": "out",              // Destination directory for the output files
+  "overwrite": false,         // Whether to overwrite existing files (true/false)
+  "verbose": false,           // Enable verbose logging (true/false)
+  "dry-run": false,           // Perform a trial run without making any changes (true/false)
+  "concurrency": 5,           // Number of concurrent operations
+  "lang": "en"                // Language for the interface (e.g., "en" for English)
+}
+

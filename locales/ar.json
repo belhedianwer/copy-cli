@@ -1,0 +1,69 @@
+{
+	"Usage: $0 [options]": "الاستخدام: $0 [خيارات]",
+	"Source folders (comma-separated)": "مجلدات المصدر (مفصولة بفواصل)",
+	"Extensions to copy (comma-separated, e.g. js,txt)": "الامتدادات للنسخ (مفصولة بفواصل، مثال: js,txt)",
+	"Output extension (e.g. txt)": "امتداد الإخراج (مثال: txt)",
+	"Destination folder": "مجلد الوجهة",
+	"Overwrite existing files": "الكتابة فوق الملفات الموجودة",
+	"Enable console logging at specified level": "تمكين تسجيلات الوحدة الطرفية بالمستوى المحدد",
+	"Simulate operations without copying files": "محاكاة العمليات بدون نسخ الملفات",
+	"Number of parallel copy operations": "عدد عمليات النسخ المتوازية",
+	"Interface language": "لغة الواجهة",
+	"Generate shell completion script": "إنشاء نص برمجي للإكمال التلقائي",
+	"Show version number": "إظهار رقم الإصدار",
+	"See '--help' for usage instructions.": "انظر '--help' لتعليمات الاستخدام.",
+	"Console logging enabled at level": "تم تمكين تسجيلات الوحدة الطرفية بالمستوى",
+	"started": "بدأ",
+	"Using configuration file: %s": "استخدام ملف الإعدادات: %s",
+	"Searching for plugins in: %s": "البحث عن الإضافات في: %s",
+	"Found plugins: %s": "تم العثور على الإضافات: %s",
+	"Plugin loaded successfully: %s": "تم تحميل الإضافة بنجاح: %s",
+	"Plugin file found but no install function exported: %s": "تم العثور على ملف الإضافة ولكن لا توجد دالة تثبيت مُصدرة: %s",
+	"Failed to load or execute plugin: %s": "فشل تحميل أو تنفيذ الإضافة: %s",
+	"No plugins found.": "لم يتم العثور على إضافات.",
+	"Error searching for plugins:": "خطأ أثناء البحث عن الإضافات:",
+	"Value cannot be empty": "القيمة لا يمكن أن تكون فارغة",
+	"Contains invalid characters": "يحتوي على أحرف غير صالحة",
+	"Must be a single valid extension": "يجب أن يكون امتدادًا صالحًا واحدًا",
+	"Invalid value provided for required option --%s: %s": "قيمة غير صالحة مقدمة للخيار المطلوب --%s: %s",
+	"Missing required argument: %s. Prompting user...": "الوسيطة المطلوبة مفقودة: %s. مطالبة المستخدم...",
+	"Missing required argument: --%s": "الوسيطة المطلوبة مفقودة: --%s",
+	"Enter Source folders (comma-separated)": "أدخل مجلدات المصدر (مفصولة بفواصل)",
+	"Enter Extensions to copy (e.g., js,txt)": "أدخل الامتدادات للنسخ (مثال: js,txt)",
+	"Enter Output extension (e.g., txt)": "أدخل امتداد الإخراج (مثال: txt)",
+	"Enter Destination folder": "أدخل مجلد الوجهة",
+	"Ensuring destination directory exists: %s": "التأكد من وجود مجلد الوجهة: %s",
+	"Destination directory ensured: %s": "تم التأكد من مجلد الوجهة: %s",
+	"Failed to create destination directory: %s": "فشل إنشاء مجلد الوجهة: %s",
+	"Start copy operation now?": "هل تبدأ عملية النسخ الآن؟",
+	"Operation cancelled by user.": "تم إلغاء العملية من قبل المستخدم.",
+	"Searching for files...": "جاري البحث عن الملفات...",
+	"🔍 Searching for files...": "🔍 جاري البحث عن الملفات...",
+	"Invalid or empty source directories or extensions provided.": "تم تقديم مجلدات مصدر أو امتدادات غير صالحة أو فارغة.",
+	"🔍 Searching in %s for extensions [%s]": "🔍 البحث في %s عن الامتدادات [%s]",
+	"Error during file search.": "خطأ أثناء البحث عن الملفات.",
+	"Found %d file(s) matching criteria.": "تم العثور على %d ملف (ملفات) مطابقة للمعايير.",
+	"No files found matching the specified criteria. Nothing to copy.": "لم يتم العثور على ملفات مطابقة للمعايير المحددة. لا يوجد شيء للنسخ.",
+	"--- DRY RUN MODE ---": "--- وضع المحاكاة ---",
+	"The following operations would be performed:": "سيتم تنفيذ العمليات التالية:",
+	"[Info] Target exists - would overwrite": "[معلومة] الهدف موجود - سيتم الكتابة فوقه",
+	"[Warning] Target exists - would rename": "[تحذير] الهدف موجود - سيتم إعادة تسميته",
+	"--- END DRY RUN ---": "--- نهاية المحاكاة ---",
+	"Starting copy process with concurrency=%d": "بدء عملية النسخ بتزامن=%d",
+	"Progress bar disabled in non-TTY environment. Starting copy...": "تم تعطيل شريط التقدم في بيئة غير TTY. بدء النسخ...",
+	"Copying": "جاري النسخ",
+	"Files": "ملفات",
+	"Error copying file %s:": "خطأ في نسخ الملف %s:",
+	"Copy operation completed with %d error(s).": "اكتملت عملية النسخ مع %d خطأ (أخطاء).",
+	"Copy operation completed with %d error(s). %d succeeded. Errors: %s": "اكتملت عملية النسخ مع %d خطأ (أخطاء). نجح %d. الأخطاء: %s",
+	"An unexpected critical error occurred in main execution:": "حدث خطأ حرج غير متوقع في التنفيذ الرئيسي:",
+	"An unexpected critical error occurred:": "حدث خطأ حرج غير متوقع:",
+
+	"🚀 Copy operation completed successfully: %d file copied.": "🚀 اكتملت عملية النسخ بنجاح: تم نسخ ملف %d.",
+	"🚀 Copy operation completed successfully: %d files copied.": "🚀 اكتملت عملية النسخ بنجاح: تم نسخ %d ملفات.",
+	"%d file copied successfully": "تم نسخ ملف %d بنجاح",
+	"%d files copied successfully": "تم نسخ %d ملفات بنجاح",
+	"Plugin initialized at %s": "تم تهيئة الإضافة في %s",
+        "Dry run mode detected by plugin.": "تم اكتشاف وضع المحاكاة بواسطة الإضافة.",
+        "Plugin exiting. Code: %s, Duration: %s sec": "الخروج من الإضافة. الرمز: %s، المدة: %s ثانية"
+}
